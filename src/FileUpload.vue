@@ -943,6 +943,7 @@ export default defineComponent({
     },
     // 上传
     upload(id: VueUploadItem | string): Promise<VueUploadItem> {
+      console.log("Debug: upload-component, in upload")
       const file = this.get(id)
       // 被删除
       if (!file) {
