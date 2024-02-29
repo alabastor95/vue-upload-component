@@ -45,6 +45,7 @@
 }
 </style>
 <script lang="ts">
+console.log("Debug: upload-component, FileIpload.Vue was called");
 import { PropType, defineComponent, h } from "vue";
 
 // @ts-ignore
